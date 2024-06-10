@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Aplicativo de Teste de Digitação</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="stats">
+            <p>Tempo: <span id="timer">0s</span></p>
+            <p>Erros: <span id="mistakes">0</span></p>
+        </div>
+        <div id="quote" onmousedown="return false" onselectstart="return false"></div>
+
+        <textarea id="quote-input" rows="3" placeholder="Digite aqui quando o teste começar..."></textarea>
+
+        <button id="start-test" onclick="startTest()">Iniciar teste</button>
+        <button id="stop-test" onclick="displayResult()">Parar teste</button>
+
+        <div class="result">
+            <h3>Resultado</h3>
+            <div class="wrapper">
+                <p>Precisão: <span id="accuracy"></span></p>
+                <p>Velocidade: <span id="wpm"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>

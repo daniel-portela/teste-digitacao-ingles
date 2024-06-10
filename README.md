@@ -5,7 +5,7 @@ Veja o aplicativo <a href="https://testedigitaingles.netlify.app/">Teste de Digi
 <p>Este é um aplicativo simples de teste de digitação que permite aos usuários medir sua velocidade e precisão ao digitar um texto em inglês.</p>
 </div>
 
-<video controls src="readme-video/Teste digitação inglês.mp4" title="Title"></video>
+![Aplicativo teste de digitação e, inglês](readme-images/preview.jpg)
 
 👨🏼‍💻 <b>Tecnologias utilizadas:</b>
 
